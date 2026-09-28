@@ -423,7 +423,7 @@ def build(input_path, output_path, *, check=False):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--input", type=Path, default=ROOT / "courses.json")
-    parser.add_argument("--output", type=Path, default=ROOT / "data" / "generated")
+    parser.add_argument("--output", type=Path, default=ROOT / "data")
     parser.add_argument("--check", action="store_true", help="Verify generated files without changing them")
     args = parser.parse_args()
     try:

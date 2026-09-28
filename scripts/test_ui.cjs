@@ -90,7 +90,7 @@ test('empty relations disappear while explicit no-requirement alternatives remai
 });
 
 test('COMP 2711 keeps its MATH alternatives in the corequisite branch', () => {
-  const dataset = require('../data/generated/MAIN/2520.json');
+  const dataset = require('../data/MAIN/2520.json');
   const [prerequisite, corequisite] = requirementBranches(dataset['COMP 2711'].requirements);
   assert.equal(prerequisite.relation, 'prerequisite');
   assert.equal(prerequisite.node.type, 'condition');
@@ -104,7 +104,7 @@ test('COMP 2711 keeps its MATH alternatives in the corequisite branch', () => {
 });
 
 test('COMP 2711H displays one flat OR list with each course retaining its minimum grade', () => {
-  const source = require('../data/generated/MAIN/2520.json')['COMP 2711H'].requirements.prerequisite;
+  const source = require('../data/MAIN/2520.json')['COMP 2711H'].requirements.prerequisite;
   const original = structuredClone(source);
   const display = describeRequirement(source);
   assert.equal(display.label, 'OR');
@@ -150,7 +150,7 @@ test('every node in all eight generated catalogues has a valid display and scope
   const types = new Set();
   const statuses = new Set();
   for (const campus of ['MAIN', 'GZ']) {
-    const directory = join(__dirname, '..', 'data', 'generated', campus);
+    const directory = join(__dirname, '..', 'data', campus);
     for (const filename of readdirSync(directory).filter(name => name.endsWith('.json'))) {
       const dataset = require(join(directory, filename));
       const pending = Object.values(dataset).flatMap(course => requirementBranches(course.requirements).map(branch => branch.node));
