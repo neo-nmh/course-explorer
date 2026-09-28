@@ -13,6 +13,9 @@
     "typescript": "~6.0.3"
   },
   "scripts": {
+    "data:build": "python3 scripts/preprocess_courses.py",
+    "data:check": "python3 scripts/preprocess_courses.py --check",
+    "test:data": "python3 -m unittest discover -s scripts -p 'test_*.py' -v",
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",

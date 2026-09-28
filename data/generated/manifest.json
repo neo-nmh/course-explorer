@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "campuses": {
+    "GZ": "GZ Campus",
+    "MAIN": "CWB Campus"
+  },
+  "terms": {
+    "2520": "2025-26 Winter",
+    "2530": "2025-26 Spring",
+    "2540": "2025-26 Summer",
+    "2610": "2026-27 Fall"
+  },
+  "datasets": [
+    {
+      "campus": "GZ",
+      "term": "2520",
+      "path": "GZ/2520.json",
+      "course_count": 615
+    },
+    {
+      "campus": "GZ",
+      "term": "2530",
+      "path": "GZ/2530.json",
+      "course_count": 680
+    },
+    {
+      "campus": "GZ",
+      "term": "2540",
+      "path": "GZ/2540.json",
+      "course_count": 698
+    },
+    {
+      "campus": "GZ",
+      "term": "2610",
+      "path": "GZ/2610.json",
+      "course_count": 758
+    },
+    {
+      "campus": "MAIN",
+      "term": "2520",
+      "path": "MAIN/2520.json",
+      "course_count": 3024
+    },
+    {
+      "campus": "MAIN",
+      "term": "2530",
+      "path": "MAIN/2530.json",
+      "course_count": 3114
+    },
+    {
+      "campus": "MAIN",
+      "term": "2540",
+      "path": "MAIN/2540.json",
+      "course_count": 3119
+    },
+    {
+      "campus": "MAIN",
+      "term": "2610",
+      "path": "MAIN/2610.json",
+      "course_count": 3170
+    }
+  ]
+}

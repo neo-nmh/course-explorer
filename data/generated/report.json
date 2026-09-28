@@ -1,0 +1,2249 @@
+{
+  "source_sha256": "c0e342da1c1674c93ad4f466383d2ea99e7732ab2a830e1a7bc17dcb7772a4d1",
+  "source_bytes": 28878583,
+  "course_count": 15178,
+  "files": [
+    {
+      "path": "GZ/2520.json",
+      "bytes": 2181139,
+      "course_count": 615
+    },
+    {
+      "path": "GZ/2530.json",
+      "bytes": 2804247,
+      "course_count": 680
+    },
+    {
+      "path": "GZ/2540.json",
+      "bytes": 2312801,
+      "course_count": 698
+    },
+    {
+      "path": "GZ/2610.json",
+      "bytes": 3158014,
+      "course_count": 758
+    },
+    {
+      "path": "MAIN/2520.json",
+      "bytes": 20119214,
+      "course_count": 3024
+    },
+    {
+      "path": "MAIN/2530.json",
+      "bytes": 18762166,
+      "course_count": 3114
+    },
+    {
+      "path": "MAIN/2540.json",
+      "bytes": 18775581,
+      "course_count": 3119
+    },
+    {
+      "path": "MAIN/2610.json",
+      "bytes": 19250178,
+      "course_count": 3170
+    }
+  ],
+  "generated_course_bytes": 87363340,
+  "node_counts": {
+    "all": 6226,
+    "any": 31382,
+    "at_least": 1,
+    "cases": 74,
+    "condition": 49254,
+    "conditional": 449,
+    "course": 93167,
+    "qualified": 17387,
+    "unparsed": 137
+  },
+  "largest_tree": {
+    "id": "MAIN:2520:011186",
+    "nodes": 988
+  },
+  "missing_references": [
+    {
+      "id": "MAIN:2520:011063",
+      "field": "prerequisite",
+      "course": "ELEC 2600H"
+    },
+    {
+      "id": "MAIN:2520:009488",
+      "field": "prerequisite",
+      "course": "MATH 1012"
+    },
+    {
+      "id": "MAIN:2520:008167",
+      "field": "prerequisite",
+      "course": "CORE 1120"
+    },
+    {
+      "id": "MAIN:2520:003442",
+      "field": "prerequisite",
+      "course": "CHEM 2112"
+    },
+    {
+      "id": "MAIN:2520:009165",
+      "field": "prerequisite",
+      "course": "MATH 1012"
+    },
+    {
+      "id": "MAIN:2520:010414",
+      "field": "prerequisite",
+      "course": "MATH 1012"
+    },
+    {
+      "id": "MAIN:2520:001583",
+      "field": "corequisite",
+      "course": "MATH 1012"
+    },
+    {
+      "id": "MAIN:2520:001777",
+      "field": "prerequisite",
+      "course": "COMP 1022Q"
+    },
+    {
+      "id": "MAIN:2520:001231",
+      "field": "prerequisite",
+      "course": "MATH 1012"
+    },
+    {
+      "id": "MAIN:2520:004138",
+      "field": "prerequisite",
+      "course": "ECON 5400"
+    },
+    {
+      "id": "MAIN:2520:000159",
+      "field": "prerequisite",
+      "course": "ELEC 2100H"
+    },
+    {
+      "id": "MAIN:2520:000159",
+      "field": "prerequisite",
+      "course": "ELEC 2600H"
+    },
+    {
+      "id": "MAIN:2520:001001",
+      "field": "prerequisite",
+      "course": "ISDN 4000F"
+    },
+    {
+      "id": "MAIN:2520:011098",
+      "field": "prerequisite",
+      "course": "ELEC 2600H"
+    },
+    {
+      "id": "MAIN:2520:010351",
+      "field": "prerequisite",
+      "course": "COMP 1022Q"
+    },
+    {
+      "id": "MAIN:2520:006828",
+      "field": "prerequisite",
+      "course": "CIVL 1170"
+    },
+    {
+      "id": "MAIN:2520:009179",
+      "field": "prerequisite",
+      "course": "MATH 1012"
+    },
+    {
+      "id": "MAIN:2520:009040",
+      "field": "prerequisite",
+      "course": "ISOM 5520"
+    },
+    {
+      "id": "MAIN:2520:010025",
+      "field": "corequisite",
+      "course": "CORE 1661"
+    },
+    {
+      "id": "MAIN:2520:002054",
+      "field": "prerequisite",
+      "course": "CORE 1501"
+    },
+    {
+      "id": "MAIN:2520:002054",
+      "field": "prerequisite",
+      "course": "CORE 3501"
+    },
+    {
+      "id": "MAIN:2520:002055",
+      "field": "prerequisite",
+      "course": "CORE 2651"
+    },
+    {
+      "id": "MAIN:2520:002055",
+      "field": "prerequisite",
+      "course": "CORE 3501"
+    },
+    {
+      "id": "MAIN:2520:002057",
+      "field": "prerequisite",
+      "course": "CORE 2521"
+    },
+    {
+      "id": "MAIN:2520:006876",
+      "field": "prerequisite",
+      "course": "IMBA 6910"
+    },
+    {
+      "id": "MAIN:2520:008972",
+      "field": "prerequisite",
+      "course": "LANG 1003"
+    },
+    {
+      "id": "MAIN:2520:006905",
+      "field": "prerequisite",
+      "course": "LANG 1003"
+    },
+    {
+      "id": "MAIN:2520:008977",
+      "field": "prerequisite",
+      "course": "LANG 1003"
+    },
+    {
+      "id": "MAIN:2520:011165",
+      "field": "prerequisite",
+      "course": "LANG 1401"
+    },
+    {
+      "id": "MAIN:2520:007255",
+      "field": "prerequisite",
+      "course": "LANG 1003"
+    },
+    {
+      "id": "MAIN:2520:006998",
+      "field": "prerequisite",
+      "course": "LANG 1003"
+    },
+    {
+      "id": "MAIN:2520:007214",
+      "field": "prerequisite",
+      "course": "LANG 1003"
+    },
+    {
+      "id": "MAIN:2520:008042",
+      "field": "prerequisite",
+      "course": "LANG 1003"
+    },
+    {
+      "id": "MAIN:2520:009716",
+      "field": "prerequisite",
+      "course": "LANG 1003"
+    },
+    {
+      "id": "MAIN:2520:008212",
+      "field": "prerequisite",
+      "course": "LANG 1003"
+    },
+    {
+      "id": "MAIN:2520:008214",
+      "field": "prerequisite",
+      "course": "LANG 1003"
+    },
+    {
+      "id": "MAIN:2520:008215",
+      "field": "prerequisite",
+      "course": "LANG 1003"
+    },
+    {
+      "id": "MAIN:2520:008272",
+      "field": "prerequisite",
+      "course": "LANG 1003"
+    },
+    {
+      "id": "MAIN:2520:008591",
+      "field": "prerequisite",
+      "course": "LANG 1003"
+    },
+    {
+      "id": "MAIN:2520:009718",
+      "field": "prerequisite",
+      "course": "LANG 1003"
+    },
+    {
+      "id": "MAIN:2520:012446",
+      "field": "prerequisite",
+      "course": "LANG 1003"
+    },
+    {
+      "id": "MAIN:2520:001894",
+      "field": "prerequisite",
+      "course": "MATH 1012"
+    },
+    {
+      "id": "MAIN:2520:011049",
+      "field": "prerequisite",
+      "course": "MATH 1012"
+    },
+    {
+      "id": "MAIN:2520:000172",
+      "field": "prerequisite",
+      "course": "MATH 2031"
+    },
+    {
+      "id": "MAIN:2520:010346",
+      "field": "prerequisite",
+      "course": "ELEC 2600H"
+    },
+    {
+      "id": "MAIN:2520:001542",
+      "field": "prerequisite",
+      "course": "MATH 4061"
+    },
+    {
+      "id": "MAIN:2520:007022",
+      "field": "prerequisite",
+      "course": "MATH 4982"
+    },
+    {
+      "id": "MAIN:2520:007675",
+      "field": "prerequisite",
+      "course": "MATH 1012"
+    },
+    {
+      "id": "MAIN:2520:000179",
+      "field": "prerequisite",
+      "course": "MATH 1012"
+    },
+    {
+      "id": "MAIN:2520:008519",
+      "field": "prerequisite",
+      "course": "CORE 1371"
+    },
+    {
+      "id": "MAIN:2520:001799",
+      "field": "prerequisite",
+      "course": "CORE 1371"
+    },
+    {
+      "id": "MAIN:2520:009634",
+      "field": "prerequisite",
+      "course": "CHEM 1030"
+    },
+    {
+      "id": "MAIN:2520:009635",
+      "field": "prerequisite",
+      "course": "MATH 1012"
+    },
+    {
+      "id": "MAIN:2520:007720",
+      "field": "prerequisite",
+      "course": "OCES 2001"
+    },
+    {
+      "id": "MAIN:2520:012132",
+      "field": "prerequisite",
+      "course": "OCES 2001"
+    },
+    {
+      "id": "MAIN:2520:008868",
+      "field": "prerequisite",
+      "course": "OCES 2001"
+    },
+    {
+      "id": "MAIN:2520:008127",
+      "field": "prerequisite",
+      "course": "LIFS 3160"
+    },
+    {
+      "id": "MAIN:2520:007612",
+      "field": "prerequisite",
+      "course": "MATH 1012"
+    },
+    {
+      "id": "MAIN:2520:011194",
+      "field": "prerequisite",
+      "course": "SOSC 1450"
+    },
+    {
+      "id": "MAIN:2530:011063",
+      "field": "prerequisite",
+      "course": "ELEC 2600H"
+    },
+    {
+      "id": "MAIN:2530:009730",
+      "field": "prerequisite",
+      "course": "COMP 1022P"
+    },
+    {
+      "id": "MAIN:2530:010087",
+      "field": "prerequisite",
+      "course": "COMP 1022P"
+    },
+    {
+      "id": "MAIN:2530:009488",
+      "field": "prerequisite",
+      "course": "MATH 1012"
+    },
+    {
+      "id": "MAIN:2530:008167",
+      "field": "prerequisite",
+      "course": "CORE 1120"
+    },
+    {
+      "id": "MAIN:2530:012659",
+      "field": "prerequisite",
+      "course": "MATH 1012"
+    },
+    {
+      "id": "MAIN:2530:003442",
+      "field": "prerequisite",
+      "course": "CHEM 2112"
+    },
+    {
+      "id": "MAIN:2530:011223",
+      "field": "prerequisite",
+      "course": "COMP 1022P"
+    },
+    {
+      "id": "MAIN:2530:011625",
+      "field": "prerequisite",
+      "course": "COMP 1022P"
+    },
+    {
+      "id": "MAIN:2530:011065",
+      "field": "prerequisite",
+      "course": "COMP 1022P"
+    },
+    {
+      "id": "MAIN:2530:011421",
+      "field": "prerequisite",
+      "course": "COMP 1022P"
+    },
+    {
+      "id": "MAIN:2530:009165",
+      "field": "prerequisite",
+      "course": "MATH 1012"
+    },
+    {
+      "id": "MAIN:2530:010099",
+      "field": "prerequisite",
+      "course": "COMP 1022P"
+    },
+    {
+      "id": "MAIN:2530:010414",
+      "field": "prerequisite",
+      "course": "MATH 1012"
+    },
+    {
+      "id": "MAIN:2530:007982",
+      "field": "prerequisite",
+      "course": "COMP 1022P"
+    },
+    {
+      "id": "MAIN:2530:007984",
+      "field": "prerequisite",
+      "course": "COMP 1022P"
+    },
+    {
+      "id": "MAIN:2530:007985",
+      "field": "prerequisite",
+      "course": "COMP 1022P"
+    },
+    {
+      "id": "MAIN:2530:001583",
+      "field": "corequisite",
+      "course": "MATH 1012"
+    },
+    {
+      "id": "MAIN:2530:000340",
+      "field": "prerequisite",
+      "course": "COMP 1022P"
+    },
+    {
+      "id": "MAIN:2530:010859",
+      "field": "prerequisite",
+      "course": "COMP 1022P"
+    },
+    {
+      "id": "MAIN:2530:001777",
+      "field": "prerequisite",
+      "course": "COMP 1022P"
+    },
+    {
+      "id": "MAIN:2530:001777",
+      "field": "prerequisite",
+      "course": "COMP 1022Q"
+    },
+    {
+      "id": "MAIN:2530:001231",
+      "field": "prerequisite",
+      "course": "MATH 1012"
+    },
+    {
+      "id": "MAIN:2530:004138",
+      "field": "prerequisite",
+      "course": "ECON 5400"
+    },
+    {
+      "id": "MAIN:2530:001875",
+      "field": "corequisite",
+      "course": "COMP 1022P"
+    },
+    {
+      "id": "MAIN:2530:000159",
+      "field": "prerequisite",
+      "course": "ELEC 2100H"
+    },
+    {
+      "id": "MAIN:2530:000159",
+      "field": "prerequisite",
+      "course": "ELEC 2600H"
+    },
+    {
+      "id": "MAIN:2530:001001",
+      "field": "prerequisite",
+      "course": "ISDN 4000F"
+    },
+    {
+      "id": "MAIN:2530:011098",
+      "field": "prerequisite",
+      "course": "ELEC 2600H"
+    },
+    {
+      "id": "MAIN:2530:010351",
+      "field": "prerequisite",
+      "course": "COMP 1022P"
+    },
+    {
+      "id": "MAIN:2530:010351",
+      "field": "prerequisite",
+      "course": "COMP 1022Q"
+    },
+    {
+      "id": "MAIN:2530:006828",
+      "field": "prerequisite",
+      "course": "CIVL 1170"
+    },
+    {
+      "id": "MAIN:2530:009179",
+      "field": "prerequisite",
+      "course": "MATH 1012"
+    },
+    {
+      "id": "MAIN:2530:009040",
+      "field": "prerequisite",
+      "course": "ISOM 5520"
+    },
+    {
+      "id": "MAIN:2530:010025",
+      "field": "corequisite",
+      "course": "CORE 1661"
+    },
+    {
+      "id": "MAIN:2530:002054",
+      "field": "prerequisite",
+      "course": "CORE 1501"
+    },
+    {
+      "id": "MAIN:2530:002054",
+      "field": "prerequisite",
+      "course": "CORE 3501"
+    },
+    {
+      "id": "MAIN:2530:002055",
+      "field": "prerequisite",
+      "course": "CORE 2651"
+    },
+    {
+      "id": "MAIN:2530:002055",
+      "field": "prerequisite",
+      "course": "CORE 3501"
+    },
+    {
+      "id": "MAIN:2530:002057",
+      "field": "prerequisite",
+      "course": "CORE 2521"
+    },
+    {
+      "id": "MAIN:2530:000882",
+      "field": "prerequisite",
+      "course": "COMP 1022P"
+    },
+    {
+      "id": "MAIN:2530:009554",
+      "field": "prerequisite",
+      "course": "COMP 1022P"
+    },
+    {
+      "id": "MAIN:2530:006876",
+      "field": "prerequisite",
+      "course": "IMBA 6910"
+    },
+    {
+      "id": "MAIN:2530:011335",
+      "field": "prerequisite",
+      "course": "COMP 1022P"
+    },
+    {
+      "id": "MAIN:2530:008972",
+      "field": "prerequisite",
+      "course": "LANG 1003"
+    },
+    {
+      "id": "MAIN:2530:006905",
+      "field": "prerequisite",
+      "course": "LANG 1003"
+    },
+    {
+      "id": "MAIN:2530:008977",
+      "field": "prerequisite",
+      "course": "LANG 1003"
+    },
+    {
+      "id": "MAIN:2530:011165",
+      "field": "prerequisite",
+      "course": "LANG 1401"
+    },
+    {
+      "id": "MAIN:2530:007255",
+      "field": "prerequisite",
+      "course": "LANG 1003"
+    },
+    {
+      "id": "MAIN:2530:006998",
+      "field": "prerequisite",
+      "course": "LANG 1003"
+    },
+    {
+      "id": "MAIN:2530:007214",
+      "field": "prerequisite",
+      "course": "LANG 1003"
+    },
+    {
+      "id": "MAIN:2530:008042",
+      "field": "prerequisite",
+      "course": "LANG 1003"
+    },
+    {
+      "id": "MAIN:2530:009716",
+      "field": "prerequisite",
+      "course": "LANG 1003"
+    },
+    {
+      "id": "MAIN:2530:008212",
+      "field": "prerequisite",
+      "course": "LANG 1003"
+    },
+    {
+      "id": "MAIN:2530:008214",
+      "field": "prerequisite",
+      "course": "LANG 1003"
+    },
+    {
+      "id": "MAIN:2530:008215",
+      "field": "prerequisite",
+      "course": "LANG 1003"
+    },
+    {
+      "id": "MAIN:2530:008272",
+      "field": "prerequisite",
+      "course": "LANG 1003"
+    },
+    {
+      "id": "MAIN:2530:008591",
+      "field": "prerequisite",
+      "course": "LANG 1003"
+    },
+    {
+      "id": "MAIN:2530:009718",
+      "field": "prerequisite",
+      "course": "LANG 1003"
+    },
+    {
+      "id": "MAIN:2530:012446",
+      "field": "prerequisite",
+      "course": "LANG 1003"
+    },
+    {
+      "id": "MAIN:2530:009754",
+      "field": "prerequisite",
+      "course": "COMP 1022P"
+    },
+    {
+      "id": "MAIN:2530:001894",
+      "field": "prerequisite",
+      "course": "MATH 1012"
+    },
+    {
+      "id": "MAIN:2530:011049",
+      "field": "prerequisite",
+      "course": "MATH 1012"
+    },
+    {
+      "id": "MAIN:2530:000172",
+      "field": "prerequisite",
+      "course": "COMP 1022P"
+    },
+    {
+      "id": "MAIN:2530:000172",
+      "field": "prerequisite",
+      "course": "MATH 2031"
+    },
+    {
+      "id": "MAIN:2530:010346",
+      "field": "prerequisite",
+      "course": "ELEC 2600H"
+    },
+    {
+      "id": "MAIN:2530:001542",
+      "field": "prerequisite",
+      "course": "MATH 4061"
+    },
+    {
+      "id": "MAIN:2530:009295",
+      "field": "prerequisite",
+      "course": "COMP 1022P"
+    },
+    {
+      "id": "MAIN:2530:007022",
+      "field": "prerequisite",
+      "course": "MATH 4982"
+    },
+    {
+      "id": "MAIN:2530:007675",
+      "field": "prerequisite",
+      "course": "MATH 1012"
+    },
+    {
+      "id": "MAIN:2530:000179",
+      "field": "prerequisite",
+      "course": "MATH 1012"
+    },
+    {
+      "id": "MAIN:2530:008590",
+      "field": "prerequisite",
+      "course": "COMP 1022P"
+    },
+    {
+      "id": "MAIN:2530:001395",
+      "field": "prerequisite",
+      "course": "COMP 1022P"
+    },
+    {
+      "id": "MAIN:2530:008519",
+      "field": "prerequisite",
+      "course": "CORE 1371"
+    },
+    {
+      "id": "MAIN:2530:001799",
+      "field": "prerequisite",
+      "course": "CORE 1371"
+    },
+    {
+      "id": "MAIN:2530:009634",
+      "field": "prerequisite",
+      "course": "CHEM 1030"
+    },
+    {
+      "id": "MAIN:2530:009635",
+      "field": "prerequisite",
+      "course": "MATH 1012"
+    },
+    {
+      "id": "MAIN:2530:007720",
+      "field": "prerequisite",
+      "course": "OCES 2001"
+    },
+    {
+      "id": "MAIN:2530:012132",
+      "field": "prerequisite",
+      "course": "OCES 2001"
+    },
+    {
+      "id": "MAIN:2530:008868",
+      "field": "prerequisite",
+      "course": "OCES 2001"
+    },
+    {
+      "id": "MAIN:2530:008127",
+      "field": "prerequisite",
+      "course": "LIFS 3160"
+    },
+    {
+      "id": "MAIN:2530:007612",
+      "field": "prerequisite",
+      "course": "MATH 1012"
+    },
+    {
+      "id": "MAIN:2530:011194",
+      "field": "prerequisite",
+      "course": "SOSC 1450"
+    },
+    {
+      "id": "MAIN:2540:011063",
+      "field": "prerequisite",
+      "course": "ELEC 2600H"
+    },
+    {
+      "id": "MAIN:2540:009730",
+      "field": "prerequisite",
+      "course": "COMP 1022P"
+    },
+    {
+      "id": "MAIN:2540:010087",
+      "field": "prerequisite",
+      "course": "COMP 1022P"
+    },
+    {
+      "id": "MAIN:2540:009488",
+      "field": "prerequisite",
+      "course": "MATH 1012"
+    },
+    {
+      "id": "MAIN:2540:008167",
+      "field": "prerequisite",
+      "course": "CORE 1120"
+    },
+    {
+      "id": "MAIN:2540:012659",
+      "field": "prerequisite",
+      "course": "MATH 1012"
+    },
+    {
+      "id": "MAIN:2540:003442",
+      "field": "prerequisite",
+      "course": "CHEM 2112"
+    },
+    {
+      "id": "MAIN:2540:011223",
+      "field": "prerequisite",
+      "course": "COMP 1022P"
+    },
+    {
+      "id": "MAIN:2540:011625",
+      "field": "prerequisite",
+      "course": "COMP 1022P"
+    },
+    {
+      "id": "MAIN:2540:011065",
+      "field": "prerequisite",
+      "course": "COMP 1022P"
+    },
+    {
+      "id": "MAIN:2540:011421",
+      "field": "prerequisite",
+      "course": "COMP 1022P"
+    },
+    {
+      "id": "MAIN:2540:009165",
+      "field": "prerequisite",
+      "course": "MATH 1012"
+    },
+    {
+      "id": "MAIN:2540:010099",
+      "field": "prerequisite",
+      "course": "COMP 1022P"
+    },
+    {
+      "id": "MAIN:2540:010414",
+      "field": "prerequisite",
+      "course": "MATH 1012"
+    },
+    {
+      "id": "MAIN:2540:007982",
+      "field": "prerequisite",
+      "course": "COMP 1022P"
+    },
+    {
+      "id": "MAIN:2540:007984",
+      "field": "prerequisite",
+      "course": "COMP 1022P"
+    },
+    {
+      "id": "MAIN:2540:007985",
+      "field": "prerequisite",
+      "course": "COMP 1022P"
+    },
+    {
+      "id": "MAIN:2540:001583",
+      "field": "corequisite",
+      "course": "MATH 1012"
+    },
+    {
+      "id": "MAIN:2540:000340",
+      "field": "prerequisite",
+      "course": "COMP 1022P"
+    },
+    {
+      "id": "MAIN:2540:010859",
+      "field": "prerequisite",
+      "course": "COMP 1022P"
+    },
+    {
+      "id": "MAIN:2540:001777",
+      "field": "prerequisite",
+      "course": "COMP 1022P"
+    },
+    {
+      "id": "MAIN:2540:001777",
+      "field": "prerequisite",
+      "course": "COMP 1022Q"
+    },
+    {
+      "id": "MAIN:2540:001231",
+      "field": "prerequisite",
+      "course": "MATH 1012"
+    },
+    {
+      "id": "MAIN:2540:004138",
+      "field": "prerequisite",
+      "course": "ECON 5400"
+    },
+    {
+      "id": "MAIN:2540:001875",
+      "field": "corequisite",
+      "course": "COMP 1022P"
+    },
+    {
+      "id": "MAIN:2540:000159",
+      "field": "prerequisite",
+      "course": "ELEC 2100H"
+    },
+    {
+      "id": "MAIN:2540:000159",
+      "field": "prerequisite",
+      "course": "ELEC 2600H"
+    },
+    {
+      "id": "MAIN:2540:001001",
+      "field": "prerequisite",
+      "course": "ISDN 4000F"
+    },
+    {
+      "id": "MAIN:2540:011098",
+      "field": "prerequisite",
+      "course": "ELEC 2600H"
+    },
+    {
+      "id": "MAIN:2540:010351",
+      "field": "prerequisite",
+      "course": "COMP 1022P"
+    },
+    {
+      "id": "MAIN:2540:010351",
+      "field": "prerequisite",
+      "course": "COMP 1022Q"
+    },
+    {
+      "id": "MAIN:2540:006828",
+      "field": "prerequisite",
+      "course": "CIVL 1170"
+    },
+    {
+      "id": "MAIN:2540:009179",
+      "field": "prerequisite",
+      "course": "MATH 1012"
+    },
+    {
+      "id": "MAIN:2540:009040",
+      "field": "prerequisite",
+      "course": "ISOM 5520"
+    },
+    {
+      "id": "MAIN:2540:010025",
+      "field": "corequisite",
+      "course": "CORE 1661"
+    },
+    {
+      "id": "MAIN:2540:002054",
+      "field": "prerequisite",
+      "course": "CORE 1501"
+    },
+    {
+      "id": "MAIN:2540:002054",
+      "field": "prerequisite",
+      "course": "CORE 3501"
+    },
+    {
+      "id": "MAIN:2540:002055",
+      "field": "prerequisite",
+      "course": "CORE 2651"
+    },
+    {
+      "id": "MAIN:2540:002055",
+      "field": "prerequisite",
+      "course": "CORE 3501"
+    },
+    {
+      "id": "MAIN:2540:002057",
+      "field": "prerequisite",
+      "course": "CORE 2521"
+    },
+    {
+      "id": "MAIN:2540:000882",
+      "field": "prerequisite",
+      "course": "COMP 1022P"
+    },
+    {
+      "id": "MAIN:2540:009554",
+      "field": "prerequisite",
+      "course": "COMP 1022P"
+    },
+    {
+      "id": "MAIN:2540:006876",
+      "field": "prerequisite",
+      "course": "IMBA 6910"
+    },
+    {
+      "id": "MAIN:2540:011335",
+      "field": "prerequisite",
+      "course": "COMP 1022P"
+    },
+    {
+      "id": "MAIN:2540:008972",
+      "field": "prerequisite",
+      "course": "LANG 1003"
+    },
+    {
+      "id": "MAIN:2540:006905",
+      "field": "prerequisite",
+      "course": "LANG 1003"
+    },
+    {
+      "id": "MAIN:2540:008977",
+      "field": "prerequisite",
+      "course": "LANG 1003"
+    },
+    {
+      "id": "MAIN:2540:011165",
+      "field": "prerequisite",
+      "course": "LANG 1401"
+    },
+    {
+      "id": "MAIN:2540:007255",
+      "field": "prerequisite",
+      "course": "LANG 1003"
+    },
+    {
+      "id": "MAIN:2540:006998",
+      "field": "prerequisite",
+      "course": "LANG 1003"
+    },
+    {
+      "id": "MAIN:2540:007214",
+      "field": "prerequisite",
+      "course": "LANG 1003"
+    },
+    {
+      "id": "MAIN:2540:008042",
+      "field": "prerequisite",
+      "course": "LANG 1003"
+    },
+    {
+      "id": "MAIN:2540:009716",
+      "field": "prerequisite",
+      "course": "LANG 1003"
+    },
+    {
+      "id": "MAIN:2540:008212",
+      "field": "prerequisite",
+      "course": "LANG 1003"
+    },
+    {
+      "id": "MAIN:2540:008214",
+      "field": "prerequisite",
+      "course": "LANG 1003"
+    },
+    {
+      "id": "MAIN:2540:008215",
+      "field": "prerequisite",
+      "course": "LANG 1003"
+    },
+    {
+      "id": "MAIN:2540:008272",
+      "field": "prerequisite",
+      "course": "LANG 1003"
+    },
+    {
+      "id": "MAIN:2540:008591",
+      "field": "prerequisite",
+      "course": "LANG 1003"
+    },
+    {
+      "id": "MAIN:2540:009718",
+      "field": "prerequisite",
+      "course": "LANG 1003"
+    },
+    {
+      "id": "MAIN:2540:012446",
+      "field": "prerequisite",
+      "course": "LANG 1003"
+    },
+    {
+      "id": "MAIN:2540:009754",
+      "field": "prerequisite",
+      "course": "COMP 1022P"
+    },
+    {
+      "id": "MAIN:2540:001894",
+      "field": "prerequisite",
+      "course": "MATH 1012"
+    },
+    {
+      "id": "MAIN:2540:011049",
+      "field": "prerequisite",
+      "course": "MATH 1012"
+    },
+    {
+      "id": "MAIN:2540:000172",
+      "field": "prerequisite",
+      "course": "COMP 1022P"
+    },
+    {
+      "id": "MAIN:2540:000172",
+      "field": "prerequisite",
+      "course": "MATH 2031"
+    },
+    {
+      "id": "MAIN:2540:010346",
+      "field": "prerequisite",
+      "course": "ELEC 2600H"
+    },
+    {
+      "id": "MAIN:2540:001542",
+      "field": "prerequisite",
+      "course": "MATH 4061"
+    },
+    {
+      "id": "MAIN:2540:009295",
+      "field": "prerequisite",
+      "course": "COMP 1022P"
+    },
+    {
+      "id": "MAIN:2540:007022",
+      "field": "prerequisite",
+      "course": "MATH 4982"
+    },
+    {
+      "id": "MAIN:2540:007675",
+      "field": "prerequisite",
+      "course": "MATH 1012"
+    },
+    {
+      "id": "MAIN:2540:000179",
+      "field": "prerequisite",
+      "course": "MATH 1012"
+    },
+    {
+      "id": "MAIN:2540:008590",
+      "field": "prerequisite",
+      "course": "COMP 1022P"
+    },
+    {
+      "id": "MAIN:2540:001395",
+      "field": "prerequisite",
+      "course": "COMP 1022P"
+    },
+    {
+      "id": "MAIN:2540:008519",
+      "field": "prerequisite",
+      "course": "CORE 1371"
+    },
+    {
+      "id": "MAIN:2540:001799",
+      "field": "prerequisite",
+      "course": "CORE 1371"
+    },
+    {
+      "id": "MAIN:2540:009634",
+      "field": "prerequisite",
+      "course": "CHEM 1030"
+    },
+    {
+      "id": "MAIN:2540:009635",
+      "field": "prerequisite",
+      "course": "MATH 1012"
+    },
+    {
+      "id": "MAIN:2540:007720",
+      "field": "prerequisite",
+      "course": "OCES 2001"
+    },
+    {
+      "id": "MAIN:2540:012132",
+      "field": "prerequisite",
+      "course": "OCES 2001"
+    },
+    {
+      "id": "MAIN:2540:008868",
+      "field": "prerequisite",
+      "course": "OCES 2001"
+    },
+    {
+      "id": "MAIN:2540:008127",
+      "field": "prerequisite",
+      "course": "LIFS 3160"
+    },
+    {
+      "id": "MAIN:2540:007612",
+      "field": "prerequisite",
+      "course": "MATH 1012"
+    },
+    {
+      "id": "MAIN:2540:011194",
+      "field": "prerequisite",
+      "course": "SOSC 1450"
+    },
+    {
+      "id": "MAIN:2610:003003",
+      "field": "prerequisite",
+      "course": "ACCT 5150"
+    },
+    {
+      "id": "MAIN:2610:003007",
+      "field": "prerequisite",
+      "course": "ACCT 5150"
+    },
+    {
+      "id": "MAIN:2610:009119",
+      "field": "prerequisite",
+      "course": "ACCT 5150"
+    },
+    {
+      "id": "MAIN:2610:010165",
+      "field": "prerequisite",
+      "course": "ACCT 5150"
+    },
+    {
+      "id": "MAIN:2610:009733",
+      "field": "prerequisite",
+      "course": "CHEM 1010"
+    },
+    {
+      "id": "MAIN:2610:010065",
+      "field": "prerequisite",
+      "course": "MATH 1012"
+    },
+    {
+      "id": "MAIN:2610:010848",
+      "field": "prerequisite",
+      "course": "CHEM 1010"
+    },
+    {
+      "id": "MAIN:2610:007845",
+      "field": "prerequisite",
+      "course": "CHEM 1010"
+    },
+    {
+      "id": "MAIN:2610:007850",
+      "field": "prerequisite",
+      "course": "CHEM 1010"
+    },
+    {
+      "id": "MAIN:2610:009488",
+      "field": "prerequisite",
+      "course": "MATH 1012"
+    },
+    {
+      "id": "MAIN:2610:008167",
+      "field": "prerequisite",
+      "course": "CORE 1120"
+    },
+    {
+      "id": "MAIN:2610:010343",
+      "field": "prerequisite",
+      "course": "CHEM 1010"
+    },
+    {
+      "id": "MAIN:2610:012659",
+      "field": "prerequisite",
+      "course": "MATH 1012"
+    },
+    {
+      "id": "MAIN:2610:003442",
+      "field": "prerequisite",
+      "course": "CHEM 2112"
+    },
+    {
+      "id": "MAIN:2610:000333",
+      "field": "prerequisite",
+      "course": "CHEM 1010"
+    },
+    {
+      "id": "MAIN:2610:011223",
+      "field": "prerequisite",
+      "course": "COMP 1022P"
+    },
+    {
+      "id": "MAIN:2610:011625",
+      "field": "prerequisite",
+      "course": "COMP 1022P"
+    },
+    {
+      "id": "MAIN:2610:011065",
+      "field": "prerequisite",
+      "course": "COMP 1022P"
+    },
+    {
+      "id": "MAIN:2610:011421",
+      "field": "prerequisite",
+      "course": "COMP 1022P"
+    },
+    {
+      "id": "MAIN:2610:009165",
+      "field": "prerequisite",
+      "course": "MATH 1012"
+    },
+    {
+      "id": "MAIN:2610:010099",
+      "field": "prerequisite",
+      "course": "COMP 1022P"
+    },
+    {
+      "id": "MAIN:2610:010414",
+      "field": "prerequisite",
+      "course": "MATH 1012"
+    },
+    {
+      "id": "MAIN:2610:007982",
+      "field": "prerequisite",
+      "course": "COMP 1022P"
+    },
+    {
+      "id": "MAIN:2610:007984",
+      "field": "prerequisite",
+      "course": "COMP 1022P"
+    },
+    {
+      "id": "MAIN:2610:007985",
+      "field": "prerequisite",
+      "course": "COMP 1022P"
+    },
+    {
+      "id": "MAIN:2610:001583",
+      "field": "corequisite",
+      "course": "MATH 1012"
+    },
+    {
+      "id": "MAIN:2610:000340",
+      "field": "prerequisite",
+      "course": "COMP 1022P"
+    },
+    {
+      "id": "MAIN:2610:010859",
+      "field": "prerequisite",
+      "course": "COMP 1022P"
+    },
+    {
+      "id": "MAIN:2610:001777",
+      "field": "prerequisite",
+      "course": "COMP 1022P"
+    },
+    {
+      "id": "MAIN:2610:001777",
+      "field": "prerequisite",
+      "course": "COMP 1022Q"
+    },
+    {
+      "id": "MAIN:2610:001231",
+      "field": "prerequisite",
+      "course": "MATH 1012"
+    },
+    {
+      "id": "MAIN:2610:004138",
+      "field": "prerequisite",
+      "course": "ECON 5400"
+    },
+    {
+      "id": "MAIN:2610:001875",
+      "field": "corequisite",
+      "course": "COMP 1022P"
+    },
+    {
+      "id": "MAIN:2610:000159",
+      "field": "prerequisite",
+      "course": "ELEC 2100H"
+    },
+    {
+      "id": "MAIN:2610:000159",
+      "field": "prerequisite",
+      "course": "ELEC 2600H"
+    },
+    {
+      "id": "MAIN:2610:001001",
+      "field": "prerequisite",
+      "course": "ISDN 4000F"
+    },
+    {
+      "id": "MAIN:2610:011098",
+      "field": "prerequisite",
+      "course": "ELEC 2600H"
+    },
+    {
+      "id": "MAIN:2610:010351",
+      "field": "prerequisite",
+      "course": "COMP 1022P"
+    },
+    {
+      "id": "MAIN:2610:010351",
+      "field": "prerequisite",
+      "course": "COMP 1022Q"
+    },
+    {
+      "id": "MAIN:2610:006828",
+      "field": "prerequisite",
+      "course": "CIVL 1170"
+    },
+    {
+      "id": "MAIN:2610:009179",
+      "field": "prerequisite",
+      "course": "MATH 1012"
+    },
+    {
+      "id": "MAIN:2610:009040",
+      "field": "prerequisite",
+      "course": "ISOM 5520"
+    },
+    {
+      "id": "MAIN:2610:007290",
+      "field": "prerequisite",
+      "course": "FINA 7900A"
+    },
+    {
+      "id": "MAIN:2610:007290",
+      "field": "prerequisite",
+      "course": "FINA 790I"
+    },
+    {
+      "id": "MAIN:2610:007480",
+      "field": "prerequisite",
+      "course": "FINA 7900B"
+    },
+    {
+      "id": "MAIN:2610:007480",
+      "field": "prerequisite",
+      "course": "FINA 790E"
+    },
+    {
+      "id": "MAIN:2610:010025",
+      "field": "corequisite",
+      "course": "CORE 1661"
+    },
+    {
+      "id": "MAIN:2610:002054",
+      "field": "prerequisite",
+      "course": "CORE 1501"
+    },
+    {
+      "id": "MAIN:2610:002054",
+      "field": "prerequisite",
+      "course": "CORE 3501"
+    },
+    {
+      "id": "MAIN:2610:002055",
+      "field": "prerequisite",
+      "course": "CORE 2651"
+    },
+    {
+      "id": "MAIN:2610:002055",
+      "field": "prerequisite",
+      "course": "CORE 3501"
+    },
+    {
+      "id": "MAIN:2610:002057",
+      "field": "prerequisite",
+      "course": "CORE 2521"
+    },
+    {
+      "id": "MAIN:2610:000882",
+      "field": "prerequisite",
+      "course": "COMP 1022P"
+    },
+    {
+      "id": "MAIN:2610:009554",
+      "field": "prerequisite",
+      "course": "COMP 1022P"
+    },
+    {
+      "id": "MAIN:2610:006876",
+      "field": "prerequisite",
+      "course": "IMBA 6910"
+    },
+    {
+      "id": "MAIN:2610:011335",
+      "field": "prerequisite",
+      "course": "COMP 1022P"
+    },
+    {
+      "id": "MAIN:2610:008972",
+      "field": "prerequisite",
+      "course": "LANG 1003"
+    },
+    {
+      "id": "MAIN:2610:006905",
+      "field": "prerequisite",
+      "course": "LANG 1003"
+    },
+    {
+      "id": "MAIN:2610:008977",
+      "field": "prerequisite",
+      "course": "LANG 1003"
+    },
+    {
+      "id": "MAIN:2610:011165",
+      "field": "prerequisite",
+      "course": "LANG 1401"
+    },
+    {
+      "id": "MAIN:2610:007255",
+      "field": "prerequisite",
+      "course": "LANG 1003"
+    },
+    {
+      "id": "MAIN:2610:006998",
+      "field": "prerequisite",
+      "course": "LANG 1003"
+    },
+    {
+      "id": "MAIN:2610:007214",
+      "field": "prerequisite",
+      "course": "LANG 1003"
+    },
+    {
+      "id": "MAIN:2610:008042",
+      "field": "prerequisite",
+      "course": "LANG 1003"
+    },
+    {
+      "id": "MAIN:2610:009716",
+      "field": "prerequisite",
+      "course": "LANG 1003"
+    },
+    {
+      "id": "MAIN:2610:008212",
+      "field": "prerequisite",
+      "course": "LANG 1003"
+    },
+    {
+      "id": "MAIN:2610:008214",
+      "field": "prerequisite",
+      "course": "LANG 1003"
+    },
+    {
+      "id": "MAIN:2610:008215",
+      "field": "prerequisite",
+      "course": "LANG 1003"
+    },
+    {
+      "id": "MAIN:2610:008272",
+      "field": "prerequisite",
+      "course": "LANG 1003"
+    },
+    {
+      "id": "MAIN:2610:008591",
+      "field": "prerequisite",
+      "course": "LANG 1003"
+    },
+    {
+      "id": "MAIN:2610:009718",
+      "field": "prerequisite",
+      "course": "LANG 1003"
+    },
+    {
+      "id": "MAIN:2610:012446",
+      "field": "prerequisite",
+      "course": "LANG 1003"
+    },
+    {
+      "id": "MAIN:2610:009754",
+      "field": "prerequisite",
+      "course": "COMP 1022P"
+    },
+    {
+      "id": "MAIN:2610:001894",
+      "field": "prerequisite",
+      "course": "MATH 1012"
+    },
+    {
+      "id": "MAIN:2610:011049",
+      "field": "prerequisite",
+      "course": "MATH 1012"
+    },
+    {
+      "id": "MAIN:2610:000172",
+      "field": "prerequisite",
+      "course": "COMP 1022P"
+    },
+    {
+      "id": "MAIN:2610:000172",
+      "field": "prerequisite",
+      "course": "MATH 2031"
+    },
+    {
+      "id": "MAIN:2610:010346",
+      "field": "prerequisite",
+      "course": "ELEC 2600H"
+    },
+    {
+      "id": "MAIN:2610:009295",
+      "field": "prerequisite",
+      "course": "COMP 1022P"
+    },
+    {
+      "id": "MAIN:2610:007022",
+      "field": "prerequisite",
+      "course": "MATH 4982"
+    },
+    {
+      "id": "MAIN:2610:007675",
+      "field": "prerequisite",
+      "course": "MATH 1012"
+    },
+    {
+      "id": "MAIN:2610:000179",
+      "field": "prerequisite",
+      "course": "MATH 1012"
+    },
+    {
+      "id": "MAIN:2610:008519",
+      "field": "prerequisite",
+      "course": "CORE 1371"
+    },
+    {
+      "id": "MAIN:2610:001799",
+      "field": "prerequisite",
+      "course": "CORE 1371"
+    },
+    {
+      "id": "MAIN:2610:009634",
+      "field": "prerequisite",
+      "course": "CHEM 1030"
+    },
+    {
+      "id": "MAIN:2610:009635",
+      "field": "prerequisite",
+      "course": "MATH 1012"
+    },
+    {
+      "id": "MAIN:2610:007720",
+      "field": "prerequisite",
+      "course": "OCES 2001"
+    },
+    {
+      "id": "MAIN:2610:012132",
+      "field": "prerequisite",
+      "course": "OCES 2001"
+    },
+    {
+      "id": "MAIN:2610:008868",
+      "field": "prerequisite",
+      "course": "OCES 2001"
+    }
+  ],
+  "cycles": [
+    [
+      "GZ:2520:010284",
+      "GZ:2520:010286",
+      "GZ:2520:010284"
+    ],
+    [
+      "GZ:2520:100246",
+      "GZ:2520:100305",
+      "GZ:2520:100246"
+    ],
+    [
+      "GZ:2520:100256",
+      "GZ:2520:100305",
+      "GZ:2520:100256"
+    ],
+    [
+      "GZ:2520:100269",
+      "GZ:2520:100306",
+      "GZ:2520:100269"
+    ],
+    [
+      "GZ:2520:100270",
+      "GZ:2520:100306",
+      "GZ:2520:100270"
+    ],
+    [
+      "GZ:2520:100428",
+      "GZ:2520:100429",
+      "GZ:2520:100428"
+    ],
+    [
+      "GZ:2520:100428",
+      "GZ:2520:100431",
+      "GZ:2520:100428"
+    ],
+    [
+      "GZ:2520:100455",
+      "GZ:2520:100612",
+      "GZ:2520:100455"
+    ],
+    [
+      "GZ:2530:010284",
+      "GZ:2530:010286",
+      "GZ:2530:010284"
+    ],
+    [
+      "GZ:2530:100246",
+      "GZ:2530:100305",
+      "GZ:2530:100246"
+    ],
+    [
+      "GZ:2530:100256",
+      "GZ:2530:100305",
+      "GZ:2530:100256"
+    ],
+    [
+      "GZ:2530:100269",
+      "GZ:2530:100306",
+      "GZ:2530:100269"
+    ],
+    [
+      "GZ:2530:100270",
+      "GZ:2530:100306",
+      "GZ:2530:100270"
+    ],
+    [
+      "GZ:2530:100428",
+      "GZ:2530:100429",
+      "GZ:2530:100428"
+    ],
+    [
+      "GZ:2530:100428",
+      "GZ:2530:100431",
+      "GZ:2530:100428"
+    ],
+    [
+      "GZ:2530:100455",
+      "GZ:2530:100612",
+      "GZ:2530:100455"
+    ],
+    [
+      "GZ:2540:010284",
+      "GZ:2540:010286",
+      "GZ:2540:010284"
+    ],
+    [
+      "GZ:2540:100246",
+      "GZ:2540:100305",
+      "GZ:2540:100246"
+    ],
+    [
+      "GZ:2540:100256",
+      "GZ:2540:100305",
+      "GZ:2540:100256"
+    ],
+    [
+      "GZ:2540:100269",
+      "GZ:2540:100306",
+      "GZ:2540:100269"
+    ],
+    [
+      "GZ:2540:100270",
+      "GZ:2540:100306",
+      "GZ:2540:100270"
+    ],
+    [
+      "GZ:2540:100428",
+      "GZ:2540:100429",
+      "GZ:2540:100428"
+    ],
+    [
+      "GZ:2540:100428",
+      "GZ:2540:100431",
+      "GZ:2540:100428"
+    ],
+    [
+      "GZ:2540:100455",
+      "GZ:2540:100612",
+      "GZ:2540:100455"
+    ],
+    [
+      "GZ:2610:010284",
+      "GZ:2610:010286",
+      "GZ:2610:010284"
+    ],
+    [
+      "GZ:2610:100246",
+      "GZ:2610:100305",
+      "GZ:2610:100246"
+    ],
+    [
+      "GZ:2610:100256",
+      "GZ:2610:100305",
+      "GZ:2610:100256"
+    ],
+    [
+      "GZ:2610:100269",
+      "GZ:2610:100306",
+      "GZ:2610:100269"
+    ],
+    [
+      "GZ:2610:100270",
+      "GZ:2610:100306",
+      "GZ:2610:100270"
+    ],
+    [
+      "GZ:2610:100428",
+      "GZ:2610:100429",
+      "GZ:2610:100428"
+    ],
+    [
+      "GZ:2610:100428",
+      "GZ:2610:100431",
+      "GZ:2610:100428"
+    ],
+    [
+      "GZ:2610:100455",
+      "GZ:2610:100612",
+      "GZ:2610:100455"
+    ],
+    [
+      "MAIN:2520:000040",
+      "MAIN:2520:000131",
+      "MAIN:2520:000040"
+    ],
+    [
+      "MAIN:2520:000280",
+      "MAIN:2520:008591",
+      "MAIN:2520:000280"
+    ],
+    [
+      "MAIN:2520:007090",
+      "MAIN:2520:007472",
+      "MAIN:2520:007090"
+    ],
+    [
+      "MAIN:2520:007721",
+      "MAIN:2520:012464",
+      "MAIN:2520:007721"
+    ],
+    [
+      "MAIN:2520:008312",
+      "MAIN:2520:008313",
+      "MAIN:2520:008312"
+    ],
+    [
+      "MAIN:2520:008314",
+      "MAIN:2520:008315",
+      "MAIN:2520:008314"
+    ],
+    [
+      "MAIN:2520:008316",
+      "MAIN:2520:008317",
+      "MAIN:2520:008316"
+    ],
+    [
+      "MAIN:2520:008318",
+      "MAIN:2520:008319",
+      "MAIN:2520:008318"
+    ],
+    [
+      "MAIN:2520:008589",
+      "MAIN:2520:008591",
+      "MAIN:2520:008589"
+    ],
+    [
+      "MAIN:2520:008967",
+      "MAIN:2520:008968",
+      "MAIN:2520:008967"
+    ],
+    [
+      "MAIN:2520:008969",
+      "MAIN:2520:008970",
+      "MAIN:2520:008969"
+    ],
+    [
+      "MAIN:2530:000040",
+      "MAIN:2530:000131",
+      "MAIN:2530:000040"
+    ],
+    [
+      "MAIN:2530:000280",
+      "MAIN:2530:008591",
+      "MAIN:2530:000280"
+    ],
+    [
+      "MAIN:2530:007090",
+      "MAIN:2530:007472",
+      "MAIN:2530:007090"
+    ],
+    [
+      "MAIN:2530:007721",
+      "MAIN:2530:012464",
+      "MAIN:2530:007721"
+    ],
+    [
+      "MAIN:2530:008312",
+      "MAIN:2530:008313",
+      "MAIN:2530:008312"
+    ],
+    [
+      "MAIN:2530:008314",
+      "MAIN:2530:008315",
+      "MAIN:2530:008314"
+    ],
+    [
+      "MAIN:2530:008316",
+      "MAIN:2530:008317",
+      "MAIN:2530:008316"
+    ],
+    [
+      "MAIN:2530:008318",
+      "MAIN:2530:008319",
+      "MAIN:2530:008318"
+    ],
+    [
+      "MAIN:2530:008589",
+      "MAIN:2530:008591",
+      "MAIN:2530:008589"
+    ],
+    [
+      "MAIN:2530:008967",
+      "MAIN:2530:008968",
+      "MAIN:2530:008967"
+    ],
+    [
+      "MAIN:2530:008969",
+      "MAIN:2530:008970",
+      "MAIN:2530:008969"
+    ],
+    [
+      "MAIN:2540:000040",
+      "MAIN:2540:000131",
+      "MAIN:2540:000040"
+    ],
+    [
+      "MAIN:2540:000280",
+      "MAIN:2540:008591",
+      "MAIN:2540:000280"
+    ],
+    [
+      "MAIN:2540:007090",
+      "MAIN:2540:007472",
+      "MAIN:2540:007090"
+    ],
+    [
+      "MAIN:2540:007721",
+      "MAIN:2540:012464",
+      "MAIN:2540:007721"
+    ],
+    [
+      "MAIN:2540:008312",
+      "MAIN:2540:008313",
+      "MAIN:2540:008312"
+    ],
+    [
+      "MAIN:2540:008314",
+      "MAIN:2540:008315",
+      "MAIN:2540:008314"
+    ],
+    [
+      "MAIN:2540:008316",
+      "MAIN:2540:008317",
+      "MAIN:2540:008316"
+    ],
+    [
+      "MAIN:2540:008318",
+      "MAIN:2540:008319",
+      "MAIN:2540:008318"
+    ],
+    [
+      "MAIN:2540:008589",
+      "MAIN:2540:008591",
+      "MAIN:2540:008589"
+    ],
+    [
+      "MAIN:2540:008967",
+      "MAIN:2540:008968",
+      "MAIN:2540:008967"
+    ],
+    [
+      "MAIN:2540:008969",
+      "MAIN:2540:008970",
+      "MAIN:2540:008969"
+    ],
+    [
+      "MAIN:2610:000040",
+      "MAIN:2610:000131",
+      "MAIN:2610:000040"
+    ],
+    [
+      "MAIN:2610:007090",
+      "MAIN:2610:007472",
+      "MAIN:2610:007090"
+    ],
+    [
+      "MAIN:2610:007721",
+      "MAIN:2610:012464",
+      "MAIN:2610:007721"
+    ],
+    [
+      "MAIN:2610:008312",
+      "MAIN:2610:008313",
+      "MAIN:2610:008312"
+    ],
+    [
+      "MAIN:2610:008314",
+      "MAIN:2610:008315",
+      "MAIN:2610:008314"
+    ],
+    [
+      "MAIN:2610:008316",
+      "MAIN:2610:008317",
+      "MAIN:2610:008316"
+    ],
+    [
+      "MAIN:2610:008318",
+      "MAIN:2610:008319",
+      "MAIN:2610:008318"
+    ],
+    [
+      "MAIN:2610:008967",
+      "MAIN:2610:008968",
+      "MAIN:2610:008967"
+    ],
+    [
+      "MAIN:2610:008969",
+      "MAIN:2610:008970",
+      "MAIN:2610:008969"
+    ]
+  ],
+  "parse_issues": [
+    {
+      "text": "(MATH 2011 OR MATH 2023 OR MATH 2024) AND (MATH 2111 OR MATH 2121 OR MATH 2131 OR MATH 2350) AND (IEDA 2520 AND IEDA 2540 OR ISOM 2500 OR LIFS 3150 OR MATH 2411) AND (FINA 2203 OR FINA 2303 OR MATH 2511)",
+      "warnings": [
+        "mixed_operators_and_before_or"
+      ],
+      "uses": [
+        {
+          "id": "MAIN:2610:001392",
+          "field": "prerequisite"
+        }
+      ]
+    },
+    {
+      "text": "(MATH 2011 OR MATH 2023 OR MATH 2024) AND [MATH 2350 OR (MATH 2111 OR MATH 2121 OR MATH 2131 AND MATH 2351 OR MATH 2352)]",
+      "warnings": [
+        "mixed_operators_and_before_or"
+      ],
+      "uses": [
+        {
+          "id": "MAIN:2610:007493",
+          "field": "prerequisite"
+        }
+      ]
+    },
+    {
+      "text": "(MATH 2011 OR MATH 2023) AND [MATH 2350 OR (MATH 2111 OR MATH 2121 OR MATH 2131 AND MATH 2351 OR MATH 2352)]",
+      "warnings": [
+        "mixed_operators_and_before_or"
+      ],
+      "uses": [
+        {
+          "id": "MAIN:2520:007493",
+          "field": "prerequisite"
+        },
+        {
+          "id": "MAIN:2530:007493",
+          "field": "prerequisite"
+        },
+        {
+          "id": "MAIN:2540:007493",
+          "field": "prerequisite"
+        }
+      ]
+    },
+    {
+      "text": "CENG 1500, CENG 3210, CENG 3230",
+      "warnings": [
+        "comma_assumed_all"
+      ],
+      "uses": [
+        {
+          "id": "MAIN:2520:003375",
+          "field": "prerequisite"
+        },
+        {
+          "id": "MAIN:2530:003375",
+          "field": "prerequisite"
+        },
+        {
+          "id": "MAIN:2540:003375",
+          "field": "prerequisite"
+        },
+        {
+          "id": "MAIN:2610:003375",
+          "field": "prerequisite"
+        }
+      ]
+    },
+    {
+      "text": "CORE 1661, HUMA 1671",
+      "warnings": [
+        "comma_assumed_all"
+      ],
+      "uses": [
+        {
+          "id": "MAIN:2520:010025",
+          "field": "corequisite"
+        },
+        {
+          "id": "MAIN:2530:010025",
+          "field": "corequisite"
+        },
+        {
+          "id": "MAIN:2540:010025",
+          "field": "corequisite"
+        },
+        {
+          "id": "MAIN:2610:010025",
+          "field": "corequisite"
+        }
+      ]
+    },
+    {
+      "text": "FINA 790I prior to 2011-12; FINA 7900A from 2011-12",
+      "warnings": [
+        "ambiguous_historical_alternatives"
+      ],
+      "uses": [
+        {
+          "id": "MAIN:2610:007290",
+          "field": "prerequisite"
+        }
+      ]
+    },
+    {
+      "text": "Gaokao English Score 120 to 129, or equivalence.",
+      "warnings": [
+        "ambiguous_comma_list"
+      ],
+      "uses": [
+        {
+          "id": "GZ:2520:100273",
+          "field": "prerequisite"
+        },
+        {
+          "id": "GZ:2530:100273",
+          "field": "prerequisite"
+        },
+        {
+          "id": "GZ:2540:100273",
+          "field": "prerequisite"
+        },
+        {
+          "id": "GZ:2610:100273",
+          "field": "prerequisite"
+        }
+      ]
+    },
+    {
+      "text": "ISOM 2500. (ISOM 2500 AND COMP 1021) or (MATH 2411 AND COMP 1021) for students without corequisites.",
+      "warnings": [
+        "explanatory_prose"
+      ],
+      "uses": [
+        {
+          "id": "MAIN:2520:009980",
+          "field": "prerequisite"
+        },
+        {
+          "id": "MAIN:2530:009980",
+          "field": "prerequisite"
+        },
+        {
+          "id": "MAIN:2540:009980",
+          "field": "prerequisite"
+        },
+        {
+          "id": "MAIN:2610:009980",
+          "field": "prerequisite"
+        }
+      ]
+    },
+    {
+      "text": "One of ECON 2103, ECON 2113 OR ECON 3113, AND ECON 2123 OR ECON 3123",
+      "warnings": [
+        "ambiguous_one_of"
+      ],
+      "uses": [
+        {
+          "id": "MAIN:2520:000441",
+          "field": "prerequisite"
+        },
+        {
+          "id": "MAIN:2530:000441",
+          "field": "prerequisite"
+        },
+        {
+          "id": "MAIN:2540:000441",
+          "field": "prerequisite"
+        },
+        {
+          "id": "MAIN:2610:000441",
+          "field": "prerequisite"
+        }
+      ]
+    },
+    {
+      "text": "UCUG1001, one C-Comm course, two E-Comm courses, and at least two courses from different Common Core areas in the Broadening group",
+      "warnings": [
+        "ambiguous_comma_list"
+      ],
+      "uses": [
+        {
+          "id": "GZ:2540:100884",
+          "field": "prerequisite"
+        },
+        {
+          "id": "GZ:2540:100897",
+          "field": "prerequisite"
+        },
+        {
+          "id": "GZ:2610:100884",
+          "field": "prerequisite"
+        },
+        {
+          "id": "GZ:2610:100897",
+          "field": "prerequisite"
+        }
+      ]
+    },
+    {
+      "text": "UFUG 1103 OR UFUG 1106; UFUG 1601; UFUG 1602 OR UFUG 2601; UFUG 2106",
+      "warnings": [
+        "semicolon_assumed_all"
+      ],
+      "uses": [
+        {
+          "id": "GZ:2520:100599",
+          "field": "prerequisite"
+        },
+        {
+          "id": "GZ:2530:100599",
+          "field": "prerequisite"
+        },
+        {
+          "id": "GZ:2540:100599",
+          "field": "prerequisite"
+        },
+        {
+          "id": "GZ:2610:100599",
+          "field": "prerequisite"
+        }
+      ]
+    },
+    {
+      "text": "UFUG 1103 OR UFUG 1106; UFUG 2103",
+      "warnings": [
+        "semicolon_assumed_all"
+      ],
+      "uses": [
+        {
+          "id": "GZ:2520:100600",
+          "field": "prerequisite"
+        },
+        {
+          "id": "GZ:2530:100600",
+          "field": "prerequisite"
+        }
+      ]
+    }
+  ]
+}
