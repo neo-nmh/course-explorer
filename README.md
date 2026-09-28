@@ -1,22 +1,43 @@
+# Course Explorer
+
+Offline course browsing, search, and prerequisite/corequisite diagrams. Built with Expo 57, React Native, and TypeScript. Tested on iOS.
+
 ## Setup
-- 
-
-## Data Processing
-
-- [`scripts/preprocess_courses.py`](scripts/preprocess_courses.py) uses Python to read `courses.json`, keep the selected fields, assign unique IDs, and split courses by campus and semester into `data/generated/`.
-- Prerequisite and corequisite expressions become fully expanded trees, including AND/OR relationships and conditions, so the app does not need to parse or expand them at runtime.
-- References resolve within the same campus and semester. Cycles and missing courses are marked, and expressions the parser cannot interpret retain their text.
 
 ```sh
-npm run data:build # Generate JSON files
-npm run test:data  # Test parsing and tree expansion
-npm run data:check # Verify generated files match the source
+npx expo start
 ```
 
-## Platforms Tested
-- IOS
+Open the app in Expo Go.
 
 ## Architecture
 
-## Search
-- 
+```text
+App.tsx          Navigation and app providers
+src/screens/     Browse and course detail screens
+src/components/  Shared UI, settings, and requirement diagrams
+src/hooks/       Dataset loading, error, and retry state
+src/functions/   Catalogue access, search, and diagram logic
+src/types/       Course data and navigation types
+```
+
+Bundled JSON → `catalogue.ts` → `useDataset` → screens. Catalogues load by campus and semester.
+
+Search matches course codes and titles, tolerates word typos, and ranks exact code matches first.
+
+## Data
+
+`scripts/preprocess_courses.py` converts `courses.json` into `data/generated/`. It pre-expands requirements within each campus/semester, marks cycles and missing courses, and preserves ambiguous text. `manifest.json` lists datasets; `report.json` records processing issues.
+
+When adding a campus or semester, update the dataset paths in [`src/functions/catalogue.ts`](src/functions/catalogue.ts).
+
+## Commands
+
+```sh
+npm run data:build # Regenerate datasets
+npm run data:check # Check generated files against the source
+npm run test:data  # Parser and data tests
+npm run test:ui    # Search and diagram logic tests
+npm run lint
+npm run typecheck
+```
