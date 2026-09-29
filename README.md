@@ -1,6 +1,7 @@
 ## Setup
 
 ```sh
+npm install
 npx expo start
 ```
 
